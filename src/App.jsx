@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import viteLogo from '/vite.svg';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import FeaturedItem from './components/FeaturedItem';
 import Card from './components/Card';

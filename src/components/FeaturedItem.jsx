@@ -2,7 +2,7 @@ import React from 'react';
 
 function FeaturedItem() {
     return (
-        <div className="mx-auto flex w-screen max-w-screen-lg flex-col items-center">
+        <div className="mx-auto flex w-screen max-w-screen-lg flex-col items-center py-8">
             {/* TITLE */}
             <h1 className="poppins-bold flex-row text-2xl">Trending Item</h1>
             <hr className="mb-4 mt-2 w-1/3 border-black" />
@@ -33,7 +33,7 @@ function FeaturedItem() {
                             <p className="inter-semibold py-1 text-lg text-emerald-500">
                                 AVAILABLE
                             </p>
-                            <button className="inter-semibold border-amber border-secondary text-primary h-10 w-24 rounded-xl border-4 font-bold">
+                            <button className="inter-semibold border-amber h-10 w-24 rounded-xl border-4 border-secondary font-bold text-primary duration-300 hover:bg-secondary hover:text-white">
                                 BID
                             </button>
                         </div>

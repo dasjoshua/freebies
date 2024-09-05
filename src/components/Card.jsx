@@ -24,7 +24,7 @@ function Card(props) {
                         <p className="inter-semibold py-1 text-lg text-emerald-500">
                             {props.status}
                         </p>
-                        <button className="inter-semibold border-amber border-secondary text-primary h-10 w-24 rounded-xl border-4 font-bold">
+                        <button className="inter-semibold border-amber h-10 w-24 rounded-xl border-4 border-secondary font-bold text-primary duration-300 hover:bg-secondary hover:text-white">
                             BID
                         </button>
                     </div>
